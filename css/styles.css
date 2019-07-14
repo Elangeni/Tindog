@@ -114,3 +114,14 @@ p {
   margin: 1.25rem 1.25rem 3.125rem;
   width: 15%;
 }
+
+/* Pricing */
+
+#pricing{
+  text-align: center;
+  padding: 6.25rem;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
