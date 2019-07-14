@@ -57,15 +57,23 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
+/* Title Section */
 .title-img {
+  position: absolute;
   width: 60%;
   transform: rotate(25deg);
+  right: 30%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* Features Section */
 #features {
+  background-color: white;
   padding: 7% 15%;
+  position: relative;
 }
 
 .feature-box {
@@ -82,9 +90,6 @@ p {
   color: #ff4c68;
 }
 
-.container-fluid {
-  padding: 3% 15%;
-}
 
 /* Testimonials */
 #testimonials {
@@ -124,4 +129,39 @@ p {
 
 .pricing-column{
   padding: 3% 2%;
+}
+
+/* Media Query */
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position:static;
+    transform: rotate(0);
+  }
+}
+
+/* Call to Action */
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+}
+
+/* Footer */
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.link-logo{
+  color: #ef8172;
+  display: inline;
+  padding: 2%;
+}
+
+.link-logo:hover{
+  color: #ff4c68;
 }
